@@ -20,7 +20,7 @@ a {
   background-color: #1f2937;
 }
 
-.top {
+.header {
   display: flex;
   align-items: baseline;
   justify-content: space-around;
@@ -32,6 +32,10 @@ a {
   color: #f9faf8;
 }
 
+/* .hero-content {
+   
+} */
+
 .main-text {
   font-size: 48px;
   font-weight: 900;
@@ -41,4 +45,24 @@ a {
 .secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+button {
+  background-color: #3882F6 ;  
+  color:#f9faf8;
+  border-radius: 4px;
+}
+
+.image-placeholder {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin: 5px;
+    width: 500px;
+}
+
+.image-text {
+    color: #e5e7eb;
 }
