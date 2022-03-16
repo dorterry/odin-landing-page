@@ -13,6 +13,7 @@
 
 .picture {
   display: block;
+  max-width: 500px;
 }
 
 img {
@@ -73,6 +74,10 @@ color: var(--white);
   /* or 10vh for padding top bottom */
   }
 
+  header .inner-container {
+    padding: 10px;
+  }
+
 /* COMPONENTS */
 
 
@@ -107,7 +112,7 @@ color: var(--white);
 }
 
 .hero .picture {
-
+  display: block;
 }
 
 @media (min-width: 700px) {
