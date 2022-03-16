@@ -52,6 +52,10 @@ p a, li a {
     display: block;
     padding: 10px;
     border: 6px solid orange;
+    width: 98%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 /* COMPONENTS */
@@ -131,6 +135,7 @@ body * {
   
   
   .button {
+    display: inline-block;
     background-color: #3882f6;
     border: none;
     font-size: 18px;
