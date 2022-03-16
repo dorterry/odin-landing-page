@@ -65,6 +65,9 @@ p a, li a {
 
 .hero {
   display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   background-color:#1F2937;
 }
 
