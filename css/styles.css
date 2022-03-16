@@ -35,6 +35,18 @@ p a, li a {
   text-decoration: underline;
 }
 
+/* html {
+  --white: color goes here
+  --white2:
+  --white3:
+  --lightgray:
+  --black:
+} */
+/* To use this the format would be
+background-color: var(--black);
+color: var(--white);
+*/
+
 /* STRUCTURE */
 
   body {
@@ -67,7 +79,10 @@ p a, li a {
   display: block;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px; 
+}
+
+.welcome {
   background-color:#1F2937;
 }
 
