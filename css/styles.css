@@ -149,7 +149,10 @@ color: var(--white);
 }
 
 .hero .picture {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .info-heading {
@@ -162,6 +165,9 @@ color: var(--white);
 .info-pic-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 10px;
 }
 
 
@@ -171,6 +177,13 @@ color: var(--white);
   height: 200px;
   border: 3px solid #3882f6;
   border-radius: 8px;
+}
+
+figcaption {
+  text-align: center;
+  width: 200px;
+  color:#1F2937;
+  font-weight:lighter;
 }
 
 
