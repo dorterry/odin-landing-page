@@ -186,9 +186,6 @@ figcaption {
   font-weight:lighter;
 }
 
-
-
-
 .quote {
   background-color:#E5E7EB;
 }
@@ -214,6 +211,52 @@ figcaption {
   font-weight: bold;
   color: #1F2937;
   padding-right: 70px;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+
+}
+
+.action-heading {
+  color: #f9faf8;
+  font-size:24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.action-text p {
+  margin: 0;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+
+
+.action-container .button {
+  display: inline-block;
+  border: 2px solid #f9faf8;
+  background-color: none;
+  padding: 10px 40px;
+  margin: 0;
+}
+
+footer {
+  background-color: #1F2937;
+}
+.footer {
+  text-align: center;
+  color:#f9faf8;
 }
 
 @media (min-width: 700px) {
