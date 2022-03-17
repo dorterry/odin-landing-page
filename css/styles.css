@@ -80,6 +80,17 @@ color: var(--white);
 
 /* COMPONENTS */
 
+.button {
+  display: inline-block;
+  background-color: #3882f6;
+  border: none;
+  font-size: 18px;
+  color: #f9faf8;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 40px;
+  margin-top: 20px;
+} 
 
 /* MODULES */
 
@@ -160,15 +171,5 @@ body * {
   }
   
   
-  .button {
-    display: inline-block;
-    background-color: #3882f6;
-    border: none;
-    font-size: 18px;
-    color: #f9faf8;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px 40px;
-    margin-top: 20px;
-  }
+  
   
