@@ -30,7 +30,7 @@ a {
   color: #e5e7eb;
 }
 
-p a, li a {
+p a  {
   display: inline-block;
   color: blue;
   text-decoration: underline;
@@ -76,6 +76,20 @@ color: var(--white);
 
   header .inner-container {
     padding: 10px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
   }
 
 /* COMPONENTS */
@@ -134,24 +148,16 @@ color: var(--white);
   }
   .hero :is(.hero-text, .picture) {
     flex-basis: 50%;
-    border: 1px solid blue;
   }
 }
 
 /* OTHER */
 
 body * {
-  border: 1px solid blue;
   padding: 2px;
 }
 
-  ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 32px;
-  }
+  
   
   section {
     border: 3px solid lime;
