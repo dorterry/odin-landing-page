@@ -165,7 +165,7 @@ p a  {
   border-radius: 8px;
 }
 
-figcaption {
+.info-pic-container p {
   text-align: center;
   width: 200px;
   color:#1F2937;
