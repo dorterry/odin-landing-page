@@ -220,6 +220,8 @@ figcaption {
   align-items: center;
   background-color: #3882f6;
   border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .action-text {
@@ -267,4 +269,14 @@ figcaption {
   .hero :is(.hero-text, .picture) {
     flex-basis: 50%;
   }
+
+  /* .action-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .action-container :is(.action-text, .sign-up) {
+    flex-basis: 50%;
+  } */
+
 }
