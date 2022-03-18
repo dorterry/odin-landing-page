@@ -121,7 +121,6 @@ color: var(--white);
 /* MODULES */
 
 .hero {
-  display: block;
   display: flex;
   flex-direction: column;
   gap: 20px;
